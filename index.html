@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <div id="mainContainer">
+        <h1 id="tittle">Survey Form</h1>
+        <p id="basicIfno">Feel free to answer the questions below based on your experience and opinion. If you are not convenient in answering a particular question please skip it by answering 'No'. Every answer would be very appreciated. Thank you for your time.</p>
+        <div class="container">
+            <div id="name">
+                <label for="fname">Your Name:</label><br>
+                <input type="email" id="fname" placeholder="Enter your name" name="fname"><br>
+            </div>
+            <div id="Email">
+                <label for="fname">Your Email Address :</label><br>
+                <input type="email" id="femail" placeholder="user@user.com" name="femail"><br>
+            </div>
+            <div id="PhoneNo">
+                <label for="fname">Your Phone Number :</label><br>
+                <input type="number" id="fphoneno" placeholder="Enter 10 digit no." name="fphoneno"><br>
+            </div>
+            <div id="Location">
+                <label for="fname">Where Do You Live ?</label><br>
+                <select name="location" id="location">
+                    <option value="Select">Select</option>
+                </select>
+            </div>
+            <div id="Age">
+                <fieldset>
+                    <legend>Age</legend>
+                    <div>
+                        <input class="age" type="radio" id="age1" name="age" value="20">
+                        <label for="age1">15-20</label>
+                    </div>
+                    <div>
+                        <input class="age" type="radio" id="age2" name="age" value="30">
+                        <label for="age2">21-30</label>
+                    </div>
+                    <div>
+                        <input class="age" type="radio" id="age3" name="age" value="40">
+                        <label  for="age3">31-40</label>
+                    </div>
+                    <div>
+                        <input class="age" type="radio" id="age4" name="age" value="50">
+                        <label  for="age3">41-50</label>
+                    </div>
+                    <div>
+                        <input class="age" type="radio" id="age5" name="age" value="60">
+                        <label  for="age3">51-60</label>
+                    </div>
+                    <div>
+                        <input class="age" type="radio" id="age6" name="age" value=" ">
+                        <label for="age4">prefer not to say</label>
+                    </div>
+                    </fieldset>
+            </div>
+            <div>
+                <label for="proficiency">How would you rate your proficiency in coding</label><br>
+                <input class="age" type="radio" name="proficiency" id="proficiency1" value="Beginner">
+                <label for="proficiency1">Beginner</label><br>
+                <input class="age" type="radio" name="proficiency" id="proficiency2" value="Intermediate">
+                <label for="proficiency2">Intermediate</label><br>
+                <input class="age" type="radio" name="proficiency" id="proficiency3" value="Advanced">
+                <label for="proficiency3">Advanced</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
